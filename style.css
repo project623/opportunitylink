@@ -1,0 +1,79 @@
+/* Custom scrollbar for a smoother look */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 10px;
+}
+
+/* Custom animations for hero section */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-fade-in-down {
+    animation: fadeInDown 0.8s ease-out forwards;
+}
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+.delay-200 { animation-delay: 0.2s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-600 { animation-delay: 0.6s; }
+
+/* Custom styles for the footer background shapes */
+.footer-bg-shapes {
+    position: relative;
+    overflow: hidden; /* Ensures shapes don't spill out */
+}
+
+.footer-shape-1 {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 150px;
+    height: 150px;
+    background-color: #f97316; /* Orange color */
+    border-radius: 50%;
+    opacity: 0.3;
+    filter: blur(40px);
+    z-index: 0;
+}
+
+.footer-shape-2 {
+    position: absolute;
+    top: -70px;
+    right: -70px;
+    width: 200px;
+    height: 200px;
+    background-color: #a7f3d0; /* Light green color */
+    border-radius: 50%;
+    opacity: 0.4;
+    filter: blur(50px);
+    z-index: 0;
+}

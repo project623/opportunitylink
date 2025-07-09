@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridging Talent and Opportunity - Home</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-[#2A324B] shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="index.html" class="text-2xl font-bold text-indigo-400 rounded-md p-2 hover:bg-gray-700 transition-colors duration-300">OpportunityLink</a>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-button" class="text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-md p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Desktop Navigation Links and "Start Hiring" Button -->
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="explore-opportunities.html" class="text-gray-300 hover:text-white font-medium transition-colors duration-300 rounded-md p-2 hover:bg-gray-700">Explore Opportunities</a>
+                <a href="seekers.html" class="text-gray-300 hover:text-white font-medium transition-colors duration-300 rounded-md p-2 hover:bg-gray-700">Seekers</a>
+                <a href="providers.html" class="text-gray-300 hover:text-white font-medium transition-colors duration-300 rounded-md p-2 hover:bg-gray-700">Providers</a>
+                <a href="success-stories.html" class="text-gray-300 hover:text-white font-medium transition-colors duration-300 rounded-md p-2 hover:bg-gray-700">Success Stories</a>
+                <a href="contact-page.html" class="text-gray-300 hover:text-white font-medium transition-colors duration-300 rounded-md p-2 hover:bg-gray-700">Contact</a>
+                <!-- "Start Hiring" Button for Desktop -->
+                <a href="providers.html" class="bg-orange-500 text-white px-5 py-2 rounded-full font-semibold shadow-md hover:bg-orange-600 transition-colors duration-300 ml-4">
+                    Start Hiring
+                </a>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white mt-2 border-t border-gray-200">
+            <a href="explore-opportunities.html" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md transition-colors duration-300">Explore Opportunities</a>
+            <a href="seekers.html" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md transition-colors duration-300">Seekers</a>
+            <a href="providers.html" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md transition-colors duration-300">Providers</a>
+            <a href="success-stories.html" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md transition-colors duration-300">Success Stories</a>
+            <a href="contact-page.html" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-md transition-colors duration-300">Contact</a>
+            <!-- "Start Hiring" Button for Mobile -->
+            <a href="providers.html" class="block bg-orange-500 text-white text-center px-4 py-2 mx-4 my-2 rounded-full font-semibold shadow-md hover:bg-orange-600 transition-colors duration-300">
+                Start Hiring
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="bg-[#2A324B] text-white py-20 md:py-32 rounded-b-xl shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in-down">
+                Bridging Talent and Opportunity.
+            </h1>
+            <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto opacity-90 animate-fade-in-up delay-200">
+                Connecting opportunity seekers (job seekers, mentees, entrepreneurs) with opportunity providers (HRs, mentors, investors).
+            </p>
+            <a href="join-community.html" class="bg-white text-indigo-700 hover:bg-gray-100 px-8 py-4 rounded-full font-bold text-lg shadow-lg transition-all duration-300 transform hover:scale-105 inline-block animate-fade-in-up delay-400">
+                Join Our Community
+            </a>
+        </div>
+    </header>
+
+    <!-- Meet OpportunityLink Section -->
+    <section id="meet-opportunitylink" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">Meet OpportunityLink</h2>
+            <p class="text-lg md:text-xl text-center mb-12 max-w-2xl mx-auto text-gray-600">
+                The platform designed to empower your journey, whether you're seeking or providing opportunities.
+            </p>
+
+            <div class="flex flex-col md:flex-row items-start gap-12">
+                <!-- Left Column: Scrollable Content -->
+                <div class="md:w-1/2 space-y-16 py-8 md:py-16">
+                    <!-- Point 1 -->
+                    <div id="point-1" class="meet-content p-6 rounded-lg transition-all duration-300">
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-3">Diverse & Verified Talent Pool</h3>
+                        <p class="text-lg text-gray-700">
+                            OpportunityLink connects you with a global network of highly skilled individuals. Our rigorous vetting process ensures you access top-tier professionals, mentees, and entrepreneurs from various backgrounds, all ready to contribute to your success.
+                        </p>
+                    </div>
+                    <!-- Point 2 -->
+                    <div id="point-2" class="meet-content p-6 rounded-lg transition-all duration-300">
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-3">Seamless Connection Model</h3>
+                        <p class="text-lg text-gray-700">
+                            Our platform simplifies the process of finding and connecting with opportunities or talent. For providers, we offer a direct path to vetted seekers. For seekers, we open doors to a wide range of roles, mentorships, and investment opportunities, streamlining your journey.
+                        </p>
+                    </div>
+                    <!-- Point 3 -->
+                    <div id="point-3" class="meet-content p-6 rounded-lg transition-all duration-300">
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-3">Solving Your Connection Challenges</h3>
+                        <p class="text-lg text-gray-700">
+                            We address common hurdles in talent acquisition and opportunity discovery. For providers, we reduce recruitment time and connect you with pre-qualified candidates. For seekers, we cut through the noise, providing direct access to relevant openings, experienced mentors, and potential investors, saving you time and effort.
+                        </p>
+                    </div>
+                    <!-- Point 4 -->
+                    <div id="point-4" class="meet-content p-6 rounded-lg transition-all duration-300">
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-3">Driven by Empowerment</h3>
+                        <p class="text-lg text-gray-700">
+                            OpportunityLink is committed to fostering global economic empowerment. We believe in creating equitable access to opportunities, enabling individuals worldwide to thrive and businesses to find the talent they need to innovate and grow responsibly.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Dynamic Image (Sticky) -->
+                <div class="md:w-1/2 flex justify-center items-center p-4 md:sticky md:top-24">
+                    <div class="bg-gray-100 p-8 rounded-2xl shadow-xl border border-gray-200 flex justify-center items-center min-h-[400px] w-full max-w-md">
+                        <img id="meet-image" src="https://placehold.co/400x400/e0e7ff/4338ca?text=Diverse+Talent" alt="OpportunityLink Feature Illustration" class="rounded-xl w-full h-auto object-contain transition-opacity duration-500 ease-in-out">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/600x400/e0e7ff/4338ca?text=About+Us" alt="About Us Illustration" class="rounded-xl shadow-lg w-full h-auto object-cover">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About OpportunityLink</h2>
+                <p class="text-lg text-gray-700 mb-6">
+                    OpportunityLink is a dynamic platform designed to seamlessly connect individuals seeking growth with those providing pathways to success. Our main goal is to foster a vibrant ecosystem where talent meets opportunity, driving innovation and personal development.
+                </p>
+                <p class="text-lg text-gray-700 mb-6 font-semibold">
+                    We cater to two key user types:
+                </p>
+                <ul class="list-disc list-inside text-lg text-gray-700 mb-6 space-y-2">
+                    <li><span class="font-bold">Opportunity Seekers:</span> Job hunters, students, mentees, and startup founders looking for their next big step.</li>
+                    <li><span class="font-bold">Opportunity Providers:</span> HR professionals looking to hire, mentors offering guidance, and investors seeking promising ventures.</li>
+                </ul>
+                <a href="join-community.html" class="bg-indigo-600 text-white hover:bg-indigo-700 px-6 py-3 rounded-full font-semibold shadow-md transition-all duration-300 transform hover:scale-105 inline-block">
+                    Discover Your Role
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features Section -->
+    <section id="explore" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Explore Key Features</h2>
+
+            <!-- Feature Tabs -->
+            <div class="flex justify-center mb-10">
+                <button id="seeker-tab" class="px-6 py-3 rounded-l-full bg-indigo-600 text-white font-semibold shadow-md transition-colors duration-300 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    For Opportunity Seekers
+                </button>
+                <button id="provider-tab" class="px-6 py-3 rounded-r-full bg-gray-200 text-gray-700 font-semibold shadow-md transition-colors duration-300 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    For Opportunity Providers
+                </button>
+            </div>
+
+            <!-- Seeker Features Content -->
+            <div id="seeker-content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <div class="text-indigo-600 mb-4">
+                        <svg class="w-10 h-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Create Your Profile</h3>
+                    <p class="text-gray-600 text-center">Build a compelling profile showcasing your skills, experience, and aspirations to attract the right opportunities.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <div class="text-indigo-600 mb-4">
+                        <svg class="w-10 h-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 0115 6c2.5 0 4.847.655 6.879 1.804M16 12l-4-4m0 0L8 12m4-4v12"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Upload Resume / Portfolio</h3>
+                    <p class="text-gray-600 text-center">Easily upload your resume or portfolio to highlight your achievements and showcase your work to potential connections.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <div class="text-indigo-600 mb-4">
+                        <svg class="w-10 h-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.565 23.565 0 0112 15c-1.38 0-2.71-.125-4-.365V18a2 2 0 002 2h8a2 2 0 002-2v-4.745zM3 12V6a2 2 0 012-2h2.5M12 18V6m0 0c-1.657 0-3-.895-3-2s1.343-2 3-2 3 .895 3 2-1.343 2-3 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Apply & Request</h3>
+                    <p class="text-gray-600 text-center">Apply for relevant jobs, seek mentorship from experts, or submit your innovative ideas for potential funding.</p>
+                </div>
+            </div>
+
+            <!-- Provider Features Content (Hidden by default) -->
+            <div id="provider-content" class="hidden grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <div class="text-indigo-600 mb-4">
+                        <svg class="w-10 h-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Post Opportunities</h3>
+                    <p class="text-gray-600 text-center">Easily post job openings, mentorship programs, or investment opportunities to reach a diverse pool of talent.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <div class="text-indigo-600 mb-4">
+                        <svg class="w-10 h-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16l2.879-2.879m0 0a3 3 0 104.243-4.243 3 3 0 00-4.243 4.243zM21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Search Profiles</h3>
+                    <p class="text-gray-600 text-center">Utilize advanced search filters to find the perfect candidates, mentees, or ventures that align with your criteria.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <div class="text-indigo-600 mb-4">
+                        <svg class="w-10 h-10 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3 text-center">Connect & Message</h3>
+                    <p class="text-gray-600 text-center">Initiate direct communication with selected users to discuss opportunities and build valuable connections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Join OpportunityLink Today!</h2>
+            <p class="text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                Whether you're looking for your next career move, seeking guidance, or ready to invest in promising talent, OpportunityLink is your platform. Choose your path below:
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200 flex-1 max-w-sm">
+                    <h3 class="text-2xl font-bold text-indigo-600 mb-4">I'm an Opportunity Seeker</h3>
+                    <p class="text-gray-600 mb-6">Find jobs, mentors, or funding for your startup. Create your profile and connect with providers.</p>
+                    <a href="seekers.html" class="bg-indigo-600 text-white hover:bg-indigo-700 px-6 py-3 rounded-full font-semibold shadow-md transition-all duration-300 transform hover:scale-105 inline-block">
+                        Sign Up as Seeker
+                    </a>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200 flex-1 max-w-sm">
+                    <h3 class="text-2xl font-bold text-purple-600 mb-4">I'm an Opportunity Provider</h3>
+                    <p class="text-gray-600 mb-6">Post opportunities, search talent, or find ventures to invest in. Join our network of providers.</p>
+                    <a href="providers.html" class="bg-purple-600 text-white hover:bg-purple-700 px-6 py-3 rounded-full font-semibold shadow-md transition-all duration-300 transform hover:scale-105 inline-block">
+                        Sign Up as Provider
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories / Testimonials Section -->
+    <section id="testimonials" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Our Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                    <p class="text-lg text-gray-700 mb-6 italic">"OpportunityLink helped me land my dream job! The platform is incredibly user-friendly, and I connected with top companies directly."</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/60x60/e0e7ff/4338ca?text=JD" alt="Client Avatar" class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-900">Jane Doe</p>
+                            <p class="text-sm text-gray-600">Software Engineer, Seeker</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                    <p class="text-lg text-gray-700 mb-6 italic">"As an HR professional, finding qualified candidates has never been easier. OpportunityLink's search features are a game-changer for recruitment."</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/60x60/e0e7ff/4338ca?text=MS" alt="Client Avatar" class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-900">Mark Smith</p>
+                            <p class="text-sm text-gray-600">HR Manager, Provider</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                    <p class="text-lg text-gray-700 mb-6 italic">"I found an amazing mentor through this platform who guided me through my startup's early stages. Truly invaluable connections!"</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/60x60/e0e7ff/4338ca?text=AL" alt="Client Avatar" class="w-12 h-12 rounded-full mr-4 object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-900">Anna Lee</p>
+                            <p class="text-sm text-gray-600">Startup Founder, Seeker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monetization Section -->
+    <section id="monetization" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Monetization Model</h2>
+            <p class="text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                OpportunityLink operates on a flexible model designed to provide value to all users while ensuring the sustainability and growth of our platform.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-2xl font-bold text-indigo-600 mb-4">Freemium Model</h3>
+                    <p class="text-gray-600 mb-4">Basic features for both seekers and providers are completely free, allowing everyone to get started and experience the platform's core benefits.</p>
+                    <p class="text-600">Premium features, such as priority listing for opportunities, enhanced profile visibility, advanced analytics for providers, or exclusive networking events, will be available through paid subscriptions.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-2xl font-bold text-purple-600 mb-4">Advertisements & Sponsored Posts</h3>
+                    <p class="text-gray-600 mb-4">We will offer opportunities for companies to run targeted advertisements or post sponsored content, reaching a highly relevant audience of seekers and providers.</p>
+                    <p class="text-gray-600">This allows businesses to promote their brand, specific job roles, or investment opportunities more prominently within the platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Dashboard (Conceptual) -->
+    <section id="admin-dashboard" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Admin Dashboard (Conceptual)</h2>
+            <p class="text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                As the administrator, you will have a powerful backend dashboard to manage and monitor the platform effectively. While this is a front-end template, here's a conceptual overview of the functionalities:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Content Moderation</h3>
+                    <p class="text-gray-600">Approve or reject user-generated posts (jobs, mentorships, funding requests) to maintain quality and relevance.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">User Management</h3>
+                    <p class="text-gray-600">Monitor user behavior, manage accounts, and address any issues to ensure a safe and productive environment.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Analytics & Reporting</h3>
+                    <p class="text-gray-600">Access key metrics like site traffic, user engagement, and the number of successful matches to track platform performance.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Announcements & Updates</h3>
+                    <p class="text-gray-600">Send out important announcements, newsletters, or platform updates to all users or specific segments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security and Compliance (Conceptual) -->
+    <section id="security" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Security and Compliance</h2>
+            <p class="text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                Ensuring the security and privacy of our users is paramount. While this is a front-end representation, these are critical considerations for the full platform implementation:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Secure Login</h3>
+                    <p class="text-gray-600">Implementation of secure authentication methods, including email verification and optional Two-Factor Authentication (2FA), to protect user accounts.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">GDPR Compliance</h3>
+                    <p class="text-600">Adherence to General Data Protection Regulation (GDPR) standards, especially if targeting users in the European Union, ensuring data privacy and user rights.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">SSL Certificate</h3>
+                    <p class="text-gray-600">Deployment of an SSL Certificate to encrypt all data transmitted between users and the server, safeguarding sensitive information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional Add-Ons Section -->
+    <section id="add-ons" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Optional Enhancements</h2>
+            <p class="text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
+                To further enrich the user experience and expand the platform's utility, consider these optional add-ons:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Live Chat / Chatbot</h3>
+                    <p class="text-gray-600">Implement real-time chat functionality for instant communication between seekers and providers, or a chatbot for immediate support.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Blog Section</h3>
+                    <p class="text-gray-600">A dedicated blog featuring articles, tips, and resources on career development, entrepreneurship, industry trends, and more.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Events Calendar</h3>
+                    <p class="text-gray-600">An interactive calendar to list and promote virtual job fairs, mentorship sessions, webinars, and other community events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-indigo-700 text-white py-16 md:py-20 rounded-t-xl shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Ready to Bridge Your Future?</h2>
+            <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto opacity-90">
+                Join OpportunityLink today and unlock a world of possibilities.
+            </p>
+            <a href="contact-page.html" class="bg-white text-indigo-700 hover:bg-gray-100 px-8 py-4 rounded-full font-bold text-lg shadow-lg transition-all duration-300 transform hover:scale-105 inline-block">
+                Contact Us Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Get in Touch</h2>
+            <div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                <form>
+                    <div class="mb-6">
+                        <label for="name" class="block text-gray-700 text-sm font-semibold mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-200" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-gray-700 text-sm font-semibold mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-200" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 text-sm font-semibold mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition duration-200" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white px-6 py-3 rounded-md font-bold text-lg hover:bg-indigo-700 transition-colors duration-300 shadow-md transform hover:scale-105">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#2A324B] text-white py-40 relative overflow-hidden footer-bg-shapes">
+        <!-- Abstract background shapes -->
+        <div class="footer-shape-1"></div>
+        <div class="footer-shape-2"></div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <!-- "Layover" section with Find Talent/Find Work buttons -->
+            <div class="bg-blue-100 bg-opacity-20 backdrop-filter backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-xl text-center mb-16 -mt-32 relative z-20 mx-auto max-w-4xl border border-blue-200 border-opacity-30">
+                <h3 class="text-3xl md:text-4xl font-bold text-white mb-4">Your Next Opportunity Awaits.</h3>
+                <p class="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
+                    Connect with the right talent or find your dream role and unlock your potential.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="find-talent.html" class="bg-teal-400 text-gray-900 hover:bg-teal-500 px-8 py-4 rounded-full font-bold text-lg shadow-lg transition-all duration-300 transform hover:scale-105">
+                        Find Talent
+                    </a>
+                    <a href="find-work.html" class="bg-blue-400 text-gray-900 hover:bg-blue-500 px-8 py-4 rounded-full font-bold text-lg shadow-lg transition-all duration-300 transform hover:scale-105">
+                        Find Work
+                    </a>
+                </div>
+            </div>
+
+            <!-- Main Footer Content -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+                <!-- Logo and Contact Info -->
+                <div class="col-span-1 md:col-span-1">
+                    <a href="index.html" class="text-3xl font-bold text-indigo-400 mb-4 inline-block">OpportunityLink</a>
+                    <p class="text-gray-400 text-sm mt-4">
+                        <a href="mailto:hello@opportunitylink.com" class="hover:text-white transition-colors duration-300">hello@opportunitylink.com</a>
+                    </p>
+                </div>
+
+                <!-- Column 1: For Users -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4 text-lg">For Users</h4>
+                    <ul class="space-y-2">
+                        <li><a href="seekers.html" class="text-gray-400 hover:text-white transition-colors duration-300">For Opportunity Seekers</a></li>
+                        <li><a href="providers.html" class="text-gray-400 hover:text-white transition-colors duration-300">For Opportunity Providers</a></li>
+                        <li><a href="#monetization" class="text-gray-400 hover:text-white transition-colors duration-300">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2: Company & Resources -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4 text-lg">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="success-stories.html" class="text-gray-400 hover:text-white transition-colors duration-300">Success Stories</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="contact-page.html" class="text-gray-400 hover:text-white transition-colors duration-300">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Legal & Support -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4 text-lg">Legal & Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Data Processing Agreement</a></li>
+                        <li><a href="contact-page.html" class="text-gray-400 hover:text-white transition-colors duration-300">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright Info -->
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center">
+                <p class="text-gray-400 text-sm">&copy; 2025 OpportunityLink. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
