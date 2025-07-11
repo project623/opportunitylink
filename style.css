@@ -77,3 +77,23 @@
     filter: blur(50px);
     z-index: 0;
 }
+
+/* Specific styling for How It Works tab buttons */
+.how-it-works-tab-button {
+    background-color: #ffffff; /* Default white background */
+    color: #4b5563; /* Default gray text */
+    border: 1px solid #d1d5db; /* Light gray border */
+}
+
+.how-it-works-tab-button:hover {
+    background-color: #e0e7ff; /* Light indigo on hover */
+    color: #4f46e5; /* Indigo text on hover */
+    border-color: #a5b4fc; /* Lighter indigo border on hover */
+}
+
+/* Active state for the clicked button */
+.how-it-works-tab-button.active {
+    background-color: #4f46e5; /* Indigo background for active */
+    color: #ffffff; /* White text for active */
+    border-color: #4f46e5; /* Indigo border for active */
+}
